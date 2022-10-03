@@ -23,8 +23,8 @@ features_length = 6373
 train_target_set = list()
 test_target_set = list()
 
-utterancesFolder = ".//WebBasedTest/word_level_utterances"
-featuresFolder = ".//WebBasedTest/features_files"
+utterancesFolder = "/word_level_utterances"
+featuresFolder = "/features_files"
 
 availableSubjectList = list(range(totalSubjects))
 availableSubjectList = [x+1 for x in availableSubjectList]  # adding 1 to all the itesms since the subject folder starts from 1 and not 0
